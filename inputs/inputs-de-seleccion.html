@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inputs de selección</title>
+</head>
+<body>
+  <!--
+    radio -> permite seleccionar una única opción de una lista de opciones
+    relacionadas
+
+    checkbox -> permite seleccionar varias opciones de una lista de opciones
+    relacionadas
+
+    select -> crea una lista de opciones donde podemos seleccionar una o varias
+    opciones
+
+    cada opción irá dentro de una etiqueta <option></option>
+
+    si tenemos muchas opciones podemos ordenarlas por categorias a travez de la
+    etiqueta <optgroup> con el atributo label para nombrar la categoria
+  -->    
+  <h1>Inputs de selección</h1>
+  <form action="">
+    <h2>Genero</h2>
+    <label for="">Masculino</label>
+    <input type="radio" name="genero" value="masculino">
+    <label for="">Femenino</label>
+    <input type="radio" name="genero" value="femenino">
+    <label for="">Desconocido</label>
+    <input type="radio" name="genero" value="desconocido">
+
+    <h2>Codigos</h2>
+    <input type="checkbox" name="codigos" value="html">
+    <label for="">HTML</label>
+    <input type="checkbox" name="codigos" value="css">
+    <label for="">CSS</label>
+    <input type="checkbox" name="codigos" value="javascript">
+    <label for="">JavaScirpt</label>
+
+    <h2>Lenguajes</h2>
+    <select name="lenguajes">
+      <option value="español">Español</option>
+      <option value="ingles">Inglés</option>
+      <option value="aleman">Aleman</option>
+      <option value="frances">Frances</option>
+    </select>
+
+    <h2>Mascotas</h2>
+    <select name="mascotas">
+      <optgroup label="Perros">
+        <option value="siberiano">Siberiano</option>
+        <option value="pitbul">Pitbul</option>
+        <option value="pincher">Pincher</option>
+      </optgroup>
+      <optgroup label="Gatos">
+        <option value="siames">Siames</option>
+        <option value="persa">Persa</option>
+        <option value="angora">Angora</option>
+      </optgroup>
+    </select>
+
+    <h2>Listas</h2>
+    <input type="list" list="mascotas">
+    <datalist id="mascotas">
+      <option value="pitbull"></option>
+      <option value="siberiano"></option>
+      <option value="persa"></option>
+      <option value="siames"></option>
+    </datalist>
+  </form>
+  </select>
+</body>
+</html>

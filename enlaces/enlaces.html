@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enlaces en html</title>
+</head>
+<body>
+  <!-- 
+    enlaces : también se conosen como links, permiten conectar una página web con otra
+    página web, con un recurso tanto interno como externo
+
+    href : es el atributo obligatorio para los enlaces, en este se especifica la ruta del recurso o sitio al que se quiera acceder 
+
+    target : este atributo configura como queremos visualezar el recurso o sitio web, en las rutas absolutas normalmente el valor utilizado es _blank
+
+    download : sirve para descargar el recurso solicitado
+    NOTE: el recurso debe de estar dentro del mismo servidor
+    
+    rutas absolutas : utilizan el protocolo http o https para poder acceder a sitios web externos 
+
+    rutas relativas : relativas a un punto donde nos encontramos o a la raíz del proyecto 
+    
+    NOTE: en la carpeta assets se guardan todos los medios externos:
+    imágenes, ícnonos, videos, etc...
+  -->
+   <main>
+     <a href="contacto.html">Ir a contacto</a>
+     <a href="/">Ir a index.html</a>
+     <a href="/article-section.html">Ir a article-section</a>
+     <a href="https://www.google.com" target="_blank">Ir a google</a>
+     <a href="/titulos-parrafos.html" download>descarga títulos-parrafos</a>
+     <a href="/assets/images/gato.jpg" download>descarga imágen de gato</a>
+   </main> 
+</body>
+</html>

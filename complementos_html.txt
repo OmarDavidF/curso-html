@@ -1,0 +1,35 @@
+COMPLEMENTOS PARA HTML
+
+1. auto rename tag
+2, auto close tag
+3. prettier
+4. live server
+5. material icon theme
+6. para validar la semantica de html: https://validator.w3.org/
+7. para convertir imágenes a webp: https://imagen.online-convert.com/es/convertir-a-webp
+8. para convertir imágenes a svg: https://imagen.online-convert.com/es/convertir-a-svg
+8. ver el viewport size: https://whatismyviewport.com/
+9. página web para favicons:https://www.favicon-generator.org/
+10. página web para iconos:https://fontawesome.com
+
+11. open graph protocol: nos permite elegir cuando compartimos nuestro sitio web que mostramos en ese publicación: https://ogp.me/
+
+IP : identificador único de un página web, representa la dirección donde está el ordenador 
+que contiene esa página web. cada sitio web tiene una ip única.
+Dominio : el nombre asosiado a la IP que utilizamos para solicitar recursos, en nuestro
+caso un sitio web.
+DNS : su principal función es traducir el nombre de dominio a su identificador único.
+sitio web : es un conjunto de uno a barios recuros web alojados en un mismo dominio.
+servidor web : es un ordenador cuyo único objetivo es servir recursos web.
+hosting : es el almacenamiento del servidor web. El disco duro donde el sevidor guarda sus 
+recursos.
+petición : es la acción de pedir recusrsos al servidor.
+
+-----------------------------------------------------------------------------------------------
+QUE ES HTML 
+
+- significa lenguaje de marcado de hipertexto
+- no es un lenguaje de programación es un lenguaje de estructura o de marcado
+- permite crear la estructura de la página web
+
+ 

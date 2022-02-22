@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de input</title>
+</head>
+<body>
+  <!-- 
+    button -> se conporta igual que in boton
+    color -> se utiliza para especificar un color
+    date -> se utiliza para introducir una fecha
+    email -> se utiliza para introducir un email
+    hidden -> campo oculto puede contener valor pero no se mostrara
+    month -> se utiliza para introducir un mes
+    number -> se utiliza para valores numéricos
+    password -> se utiliza para contraseñas
+    range -> se utiliza para establecer un rango
+    reset -> se utiliza para resetear el formulario
+    search -> se utiliza para la barra de busqueda
+    submit -> se utiliza para enviar el formulario
+    tel -> se utiliza para introducir números telefónicos
+    text -> valor por defecto para introducir texto
+    time -> se utiliza para introducir una hora
+    url -> se utiliza para introducir URLS
+    week -> se utiliza para introducir el número de semana del año
+  -->
+  <form action="">
+    <!-- button no sirve para enviar el formulario se puede usar con javascript -->
+    <input type="button" value="Formulario">
+    <input type="submit" value="Enviar">
+    <input type="text"><br>
+    <input type="date"><br>
+    <input type="time"><br>
+    <!-- no funcionan en mozila -->
+    <input type="month"><br>
+    <input type="week"><br><br><br><br>
+
+    <label for="search">search</label>
+    <input type="search" id="search"><br>
+    <label for="telephone">telephone</label>
+    <input type="tel" id="telephone"><br>
+    <label for="email">email</label>
+    <input type="email" id="email"><br>
+    <label for="password">pasword</label>
+    <input type="password" id="password"><br>
+    <label for="url">URL</label>
+    <input type="url" id="url"><br><br><br>
+
+    <input type="color"><br>
+    <input type="number"><br>
+    <input type="range" step="2" min="0" max="20"><br>
+    <input type="reset">
+  </form>
+</body>
+</html>
