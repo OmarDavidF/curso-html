@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Listas en html</title>
-</head>
-<body>
-	<!-- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas en html</title>
+  </head>
+  <body>
+    <!-- 
 		las listas en html sirven para listar el contenido, en función del contenido 
 		de nuestras listas tenemos tres tipos:
 
@@ -21,108 +21,116 @@
 		dt -> definition term : el término que vamos a definir
 		dd -> definition description : la descripción del término
 	-->
-  <h1>Listas</h1>
+    <h1>Listas</h1>
 
-	<h2>Construir un menú de navegación</h2>
-	<nav>
-		<ul>
-			<li><a href="/enlaces/enlaces-anclas.html#noticia-1">noticia uno</a></li>
-			<li><a href="/enlaces/enlaces-anclas.html#noticia-2">noticia dos</a></li>
-			<li><a href="/enlaces/enlaces-anclas.html#noticia-3">noticia tres</a></li>
-			<li><a href="/enlaces/enlaces-anclas.html#noticia-4">noticia cuatro</a></li>
-		</ul>
-	</nav>
+    <h2>Construir un menú de navegación</h2>
+    <nav>
+      <ul>
+        <li>
+          <a href="/enlaces/enlaces-anclas.html#noticia-1">noticia uno</a>
+        </li>
+        <li>
+          <a href="/enlaces/enlaces-anclas.html#noticia-2">noticia dos</a>
+        </li>
+        <li>
+          <a href="/enlaces/enlaces-anclas.html#noticia-3">noticia tres</a>
+        </li>
+        <li>
+          <a href="/enlaces/enlaces-anclas.html#noticia-4">noticia cuatro</a>
+        </li>
+      </ul>
+    </nav>
 
-	<h2>Lista desordenada</h2>
-	<ul>
-		<li>elemento de lista uno</li>
-		<li>elemento de lista dos</li>
-		<li>elemento de lista tres</li>
-		<li>elemento de lista cuatro</li>
-	</ul>
+    <h2>Lista desordenada</h2>
+    <ul>
+      <li>elemento de lista uno</li>
+      <li>elemento de lista dos</li>
+      <li>elemento de lista tres</li>
+      <li>elemento de lista cuatro</li>
+    </ul>
 
-	<h2>Lista ordenada</h2>
-	<ol>
-		<li>elemento de lista uno</li>
-		<li>elemento de lista dos</li>
-		<li>elemento de lista tres</li>
-		<li>elemento de lista cuatro</li>
-	</ol>
+    <h2>Lista ordenada</h2>
+    <ol>
+      <li>elemento de lista uno</li>
+      <li>elemento de lista dos</li>
+      <li>elemento de lista tres</li>
+      <li>elemento de lista cuatro</li>
+    </ol>
 
-	<h2>Lista definicion</h2>
-	<dl>
-		<dt>término a definir uno</dt>
-		<dd>definición del término</dd>
-		<dt>término a definir dos</dt>
-		<dd>definición del término</dd>
-		<dt>término a definir tres</dt>
-		<dd>definición del término</dd>
-	</dl>
+    <h2>Lista definicion</h2>
+    <dl>
+      <dt>término a definir uno</dt>
+      <dd>definición del término</dd>
+      <dt>término a definir dos</dt>
+      <dd>definición del término</dd>
+      <dt>término a definir tres</dt>
+      <dd>definición del término</dd>
+    </dl>
 
-	<h2>Listas anidadas</h2>
-	<ol>
-		<li>
-			elemento de lista uno
-			<ol>
-				<li>sub elemento de lista</li>
-				<li>sub elemento de lista</li>
-			</ol>
-		</li>
-		<li>
-			elemento de lista dos
-			<ol>
-				<li>sub elemento de lista</li>
-				<li>sub elemento de lista</li>
-			</ol>
-		</li>
-		<li>
-			elemento de lista tres
-			<ul>
-				<li>sub elemento de lista</li>
-				<li>sub elemento de lista</li>
-			</ul>
-		</li>
-	</ol>
-	<!-- 
+    <h2>Listas anidadas</h2>
+    <ol>
+      <li>
+        elemento de lista uno
+        <ol>
+          <li>sub elemento de lista</li>
+          <li>sub elemento de lista</li>
+        </ol>
+      </li>
+      <li>
+        elemento de lista dos
+        <ol>
+          <li>sub elemento de lista</li>
+          <li>sub elemento de lista</li>
+        </ol>
+      </li>
+      <li>
+        elemento de lista tres
+        <ul>
+          <li>sub elemento de lista</li>
+          <li>sub elemento de lista</li>
+        </ul>
+      </li>
+    </ol>
+    <!-- 
 		atributos de las listas
 		ol -> type : estilo de numeración (1,A,a) 
 		      start : inicio de la secuencia (un número)
 		ul -> type : estilo de los items (disc,square,circle)
 	-->
-	<h2>Lista desordenada square y circle</h2>
-	<ul type="square">
-		<li>elemento de lista uno</li>
-		<li>elemento de lista dos</li>
-		<li>elemento de lista tres</li>
-		<li>elemento de lista cuatro</li>
-	</ul>
-	<ul type="circle">
-		<li>elemento de lista uno</li>
-		<li>elemento de lista dos</li>
-		<li>elemento de lista tres</li>
-		<li>elemento de lista cuatro</li>
-	</ul>
+    <h2>Lista desordenada square y circle</h2>
+    <ul type="square">
+      <li>elemento de lista uno</li>
+      <li>elemento de lista dos</li>
+      <li>elemento de lista tres</li>
+      <li>elemento de lista cuatro</li>
+    </ul>
+    <ul type="circle">
+      <li>elemento de lista uno</li>
+      <li>elemento de lista dos</li>
+      <li>elemento de lista tres</li>
+      <li>elemento de lista cuatro</li>
+    </ul>
 
-	<h2>Lista ordenada con atributo</h2>
-	<ol type="A">
-		<li>elemento de lista uno</li>
-		<li>elemento de lista dos</li>
-		<li>elemento de lista tres</li>
-	</ol>
-	<ol type="I">
-		<li>elemento de lista uno</li>
-		<li>elemento de lista dos</li>
-    <li>elemento de lista tres</li>
-	</ol>
-	<ol type="a">
-		<li>elemento de lista uno</li>
-		<li>elemento de lista dos</li>
-		<li>elemento de lista tres</li>
-	</ol>
-	<ol start="3">
-		<li>elemento de lista uno</li>
-		<li>elemento de lista dos</li>
-		<li>elemento de lista tres</li>
-	</ol>
-</body>
+    <h2>Lista ordenada con atributo</h2>
+    <ol type="A">
+      <li>elemento de lista uno</li>
+      <li>elemento de lista dos</li>
+      <li>elemento de lista tres</li>
+    </ol>
+    <ol type="I">
+      <li>elemento de lista uno</li>
+      <li>elemento de lista dos</li>
+      <li>elemento de lista tres</li>
+    </ol>
+    <ol type="a">
+      <li>elemento de lista uno</li>
+      <li>elemento de lista dos</li>
+      <li>elemento de lista tres</li>
+    </ol>
+    <ol start="3">
+      <li>elemento de lista uno</li>
+      <li>elemento de lista dos</li>
+      <li>elemento de lista tres</li>
+    </ol>
+  </body>
 </html>

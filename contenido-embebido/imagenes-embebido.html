@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta name="Viewport" content="width=device-width, initial-scale=1.0 ">
+    <meta charset="utf-8" />
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0 " />
     <title>Imägenes embebidas</title>
     <style>
       img {
@@ -16,7 +16,6 @@
       DPR (Device Pixel Ratio) 
       es la relación real entre los pixeles que tiene el dispositivo y los pixeles que
       tenemos disponibles para "pintar" contenido
-
       para colocar una imagen para web y otra para mobile utilizamos
       la etiquueta con el elemento (srcset) las rutas están separadas
       por una coma y el DPR se coloca al final con ej; 2x
@@ -34,17 +33,23 @@
           con el atributo media le indicamos al navegador el ancho en el que mostrará la
           imágen 
         -->
-        <source srcset="/contenido-embebido/assets/images/balloons.jpg, 
-        /contenido-embebido/assets/images/balloons-mobile.jpg" media="(max-width: 360px)">
+        <source
+          srcset="
+            /contenido-embebido/assets/images/balloons.jpg,
+            /contenido-embebido/assets/images/balloons-mobile.jpg
+          "
+          media="(max-width: 360px)"
+        />
         <!-- 
           img tiene un respaldo obligatorio en caso de que las imágenes de source 
           no sean soportadas
         -->
-        <img src="/contenido-embebido/assets/images/balloons.jpg" alt="imágen de globos">
+        <img
+          src="/contenido-embebido/assets/images/balloons.jpg"
+          alt="imágen de globos"
+        />
       </picture>
     </main>
-   <footer>
-   </footer> 
+    <footer></footer>
   </body>
 </html>
-

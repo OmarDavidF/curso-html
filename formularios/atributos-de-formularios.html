@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atributos de formularios</title>
-</head>
-<body>
-  <!-- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atributos de formularios</title>
+  </head>
+  <body>
+    <!-- 
     placeholder -> da una pista de lo que el usuario tiene que introducir
     required -> hace que un campo sea obligatorio
     readonly -> hace que un campo sea solo lectura
@@ -19,18 +19,28 @@
     disabled -> desactiva el campo no se podrá escribir en el 
     autofocus -> para poner el foco por defecto al cargar un formulario 
   -->
-  <form action="">
-    <label for="nombre">Nombre</label>
-    <input type="text" id="nombre" placeholder="ingrese el nombre" autofocus><br>
-    <label for="email">email</label>
-    <input type="email" id="email" placeholder="ingrese email" required><br>
-    <label for="lectura">Solo lectura</label>
-    <input type="text" value="Hola Mundo" readonly><br>
-    <label for="numero">Campo numérico</label>
-    <input type="number" min="5" max="50"><br>
-    <label for="contraseña">Ingrese contraseña</label>
-    <input type="password" minlength="5" maxlength="10"><br>
-    <input type="submit">
-  </form>  
-</body>
+    <form action="">
+      <label for="nombre">Nombre</label>
+      <input
+        type="text"
+        id="nombre"
+        placeholder="ingrese el nombre"
+        autofocus
+      /><br />
+      <label for="email">email</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="ingrese email"
+        required
+      /><br />
+      <label for="lectura">Solo lectura</label>
+      <input type="text" value="Hola Mundo" readonly /><br />
+      <label for="numero">Campo numérico</label>
+      <input type="number" min="5" max="50" /><br />
+      <label for="contraseña">Ingrese contraseña</label>
+      <input type="password" minlength="5" maxlength="10" /><br />
+      <input type="submit" />
+    </form>
+  </body>
 </html>
